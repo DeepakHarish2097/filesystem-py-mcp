@@ -1,5 +1,5 @@
-from .server import mcp
+from . import server
 
 
 def main() -> None:
-    mcp.run()
+    server.mcp.run()
